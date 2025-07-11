@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finndemy - Level Up Your Expertise</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #0f3758;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .homepage-categories {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .homepage-categories h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2em;
+      color: #0f3758;
+    }
+
+    .categories-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .category-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .category-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .category-box h3 {
+      margin-top: 0;
+      color: #0f3758;
+    }
+
+    .category-box p {
+      font-size: 1em;
+      margin: 15px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #1eba15;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #169910;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #0f3758;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .categories-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Level Up Your Expertise with Finndemy</h1>
+  </header>
+
+  <section class="homepage-categories">
+    <h2>Main Categories</h2>
+    <div class="categories-container">
+      <div class="category-box">
+        <h3>Organizations and Pension Schemes</h3>
+        <p>Explore training and compliance solutions tailored for trustees, pension administrators, and organizational leadership.</p>
+        <a href="/courses/organizations-pension-schemes" class="btn">View Courses</a>
+      </div>
+      <div class="category-box">
+        <h3>Personal Finance for Individuals</h3>
+        <p>Enhance your financial literacy and personal money management skills with expert-led content for individuals.</p>
+        <a href="/courses/personal-finance" class="btn">View Courses</a>
+      </div>
+      <div class="category-box">
+        <h3>Planning for Retirement</h3>
+        <p>Get ready for retirement with practical lessons on savings, investment options, and pension planning strategies.</p>
+        <a href="/courses/planning-retirement" class="btn">View Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Finndemy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
